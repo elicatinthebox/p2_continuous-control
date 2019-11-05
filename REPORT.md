@@ -27,6 +27,7 @@ Benchmark Mean Reward: 30
 In order to train the Agent and solve the environment I chose the **Deep Deterministic Policy Gradient (DDPG)** algorithm. As it's possible to read in the relative [paper](https://arxiv.org/pdf/1509.02971.pdf) presented by the Google Deepmind researchers, the DDPG is "a model-free, off-policy actor-critic algorithm using deep function approximators that can learn policies in high-dimensional, continuous action spaces.". I chose this algorithm due to the fact the problem to solve is a continuous action space. To best explore the situation, the algorithm leverages the Actor-Critic paradigm. While the actor model learns to predicts the actions, the critic model learns the state-action values to provide. As described below, to best achieve prediction results additional options have been introduced to the algorithm, such as Experience Reply, Ornsteing-Uhlenbeck Noise and so on. This is a continuous action space situation, so the DDPG algorithm is the best choice, leveraging the Actor-Critic paradigm. In continuous action spaces, exploration is done by adding noise to the action itself. Additional options have been introduced to the algorithm, such as Experience Reply, in the DDPG paper, the authors use Ornstein-Uhlenbeck Process to add noise to the action output (Uhlenbeck & Ornstein, 1930), in order to get better prediction results.
 
 ### Hyper Parameters
+```
 BUFFER_SIZE = int(1e6) # replay buffer size
 BATCH_SIZE = 1024 # minibatch size
 GAMMA = 0.99 # discount factor
@@ -36,6 +37,7 @@ LR_CRITIC = 1e-3 # learning rate of the critic before: 3e-4
 WEIGHT_DECAY = 0.0000 # L2 weight decay
 EPSILON = 1.0 # noise factor
 EPSILON_DECAY = 1e-6 # decay of noise factor
+```
 
 ### Actor-Critic Method
 
