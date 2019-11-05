@@ -34,15 +34,19 @@ In order to train the Agent and solve the environment I chose the **Deep Determi
 
 ### Hyper Parameters
 ```
-BUFFER_SIZE = int(1e6) # replay buffer size
-BATCH_SIZE = 1024 # minibatch size
-GAMMA = 0.99 # discount factor
-TAU = 1e-3 # for soft update of target parameters
-LR_ACTOR = 1e-3 # learning rate of the actor
-LR_CRITIC = 1e-3 # learning rate of the critic before: 3e-4
-WEIGHT_DECAY = 0.0000 # L2 weight decay
-EPSILON = 1.0 # noise factor
-EPSILON_DECAY = 1e-6 # decay of noise factor
+BUFFER_SIZE = int(1e6)  # replay buffer size
+BATCH_SIZE = 128        # minibatch size
+GAMMA = 0.99            # discount factor
+TAU = 1e-3              # for soft update of target parameters
+LR_ACTOR = 1e-3         # learning rate of the actor
+LR_CRITIC = 1e-3        # learning rate of the critic
+WEIGHT_DECAY = 0        # L2 weight decay
+LEARN_EVERY = 20        # learning timestep interval
+LEARN_NUM = 10          # number of learning passes
+OU_SIGMA = 0.2          # Ornstein-Uhlenbeck noise parameter
+OU_THETA = 0.15         # Ornstein-Uhlenbeck noise parameter
+EPSILON = 1.0           # explore->exploit noise process added to act step
+EPSILON_DECAY = 1e-6    # decay rate for noise process
 ```
 
 ### Actor-Critic Method
