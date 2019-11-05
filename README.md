@@ -32,6 +32,10 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
 ### Getting Started
 
+
+- Configure a Python 3.6 / PyTorch 0.4.0 environment according to the requirements described in the [Udacity repository](https://github.com/udacity/deep-reinforcement-learning#dependencies) and clone the Udacity's repository.
+- Install [Jupyter Notebook](https://jupyter.org/)
+
 1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
 
     - **_Twenty (20) Agents (Version 2)_**
@@ -44,7 +48,15 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
     (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux_NoVis.zip) (version 1) or [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux_NoVis.zip) (version 2) to obtain the "headless" version of the environment.  You will **not** be able to watch the agent without enabling a virtual screen, but you will be able to train the agent.  (_To watch the agent, you should follow the instructions to [enable a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the **Linux** operating system above._)
 
+
+
 2. Place the file in the DRLND GitHub repository, in the `p2_continuous-control/` folder, and unzip (or decompress) the file. 
+3. Open the project folder inside a terminal
+4. Run the Jupyter notebook named `Continuous_Control.ipynb` using the command _jupyter notebook_
+5. Run the cells inside the Jupyter Notebook named `Continuous_Control.ipynb`
+
+
+
 
 ### Instructions
 
