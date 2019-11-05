@@ -48,7 +48,5 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
 ### Instructions
 
-Follow the instructions in `Continuous_Control.ipynb` to get started with training your own agent!  
-
-To know more about how I've devloped the project please take a look at the REPORT.md document.
+To know more about how I've devloped the project please take a look at the [REPORT.md](https://github.com/elisaromondia/p2_continuous-control/blob/master/REPORT.md) document and run the code provided in the [Continuous_Control.ipynb](https://github.com/elisaromondia/p2_continuous-control/blob/master/Continuous_Control.ipynb) Jupyter Notebook.
 
