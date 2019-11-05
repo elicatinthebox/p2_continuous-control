@@ -65,7 +65,7 @@ EPSILON_DECAY = 1e-6    # decay rate for noise process
 Parameters used to split the agents' learning
 
 ```
-LEARN_EVERY = 25        # learning timesteps
+LEARN_EVERY = 20        # learning timesteps
 LEARN_NUM = 10          # learning passes
 ```
 
