@@ -1,6 +1,6 @@
 # Report Document
-# Deep Reinforcement Learning Nanodegree
-# Project 2: Continuous Control
+
+## Project 2: Continuous Control (Deep Reinforcement Learning Nanodegree)
 
 ### Project's Goal
 
