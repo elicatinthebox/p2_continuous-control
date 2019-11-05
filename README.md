@@ -50,3 +50,5 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
 Follow the instructions in `Continuous_Control.ipynb` to get started with training your own agent!  
 
+To know more about how I've devloped the project please take a look at the REPORT.md document.
+
